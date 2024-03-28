@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE07A5DE2BA1EDF1003B0F49 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE07A5DD2BA1EDF1003B0F49 /* ScanView.swift */; };
+		CE4972EB2BA0720F0079A44F /* VINScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4972EA2BA0720F0079A44F /* VINScannerApp.swift */; };
+		CE4972ED2BA0720F0079A44F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4972EC2BA0720F0079A44F /* StartView.swift */; };
+		CE4972EF2BA072110079A44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4972EE2BA072110079A44F /* Assets.xcassets */; };
+		CE4972F22BA072110079A44F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4972F12BA072110079A44F /* Preview Assets.xcassets */; };
+		CE4972FA2BA0819F0079A44F /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4972F92BA0819F0079A44F /* CameraHandler.swift */; };
+		CE4972FC2BA081E80079A44F /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4972FB2BA081E80079A44F /* CameraView.swift */; };
+		CE521D6F2BA860E200B19628 /* RectanglePathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521D6E2BA860E200B19628 /* RectanglePathView.swift */; };
+		CE521D712BA866F800B19628 /* RecognitionTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521D702BA866F800B19628 /* RecognitionTextBox.swift */; };
+		CE521D762BA9BD6800B19628 /* CameraViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521D752BA9BD6800B19628 /* CameraViewModel .swift */; };
+		CE521D7A2BA9BDEF00B19628 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521D792BA9BDEF00B19628 /* CameraPreview.swift */; };
+		CE73D1582BAAB69100A026FB /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73D1572BAAB69100A026FB /* ScanViewModel.swift */; };
+		CEDB527C2BAC431500337FDC /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB527B2BAC431500337FDC /* CGPoint+Ext.swift */; };
+		CEDB527E2BAC434400337FDC /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB527D2BAC434400337FDC /* View+Ext.swift */; };
+		CEDB52812BAC50BC00337FDC /* CheckingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB52802BAC50BC00337FDC /* CheckingTextView.swift */; };
+		CEDB52852BAC511E00337FDC /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB52842BAC511E00337FDC /* TextFieldClearButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE07A5DD2BA1EDF1003B0F49 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		CE4972E72BA0720F0079A44F /* VINScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VINScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4972EA2BA0720F0079A44F /* VINScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VINScannerApp.swift; sourceTree = "<group>"; };
+		CE4972EC2BA0720F0079A44F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		CE4972EE2BA072110079A44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4972F12BA072110079A44F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE4972F32BA072110079A44F /* VINScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VINScanner.entitlements; sourceTree = "<group>"; };
+		CE4972F92BA0819F0079A44F /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		CE4972FB2BA081E80079A44F /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		CE521D6E2BA860E200B19628 /* RectanglePathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectanglePathView.swift; sourceTree = "<group>"; };
+		CE521D702BA866F800B19628 /* RecognitionTextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionTextBox.swift; sourceTree = "<group>"; };
+		CE521D752BA9BD6800B19628 /* CameraViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraViewModel .swift"; sourceTree = "<group>"; };
+		CE521D792BA9BDEF00B19628 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		CE73D1572BAAB69100A026FB /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		CEDB527B2BAC431500337FDC /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		CEDB527D2BAC434400337FDC /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		CEDB52802BAC50BC00337FDC /* CheckingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingTextView.swift; sourceTree = "<group>"; };
+		CEDB52842BAC511E00337FDC /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		CEDB52862BADBCB600337FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4972E42BA0720F0079A44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4972DE2BA0720F0079A44F = {
+			isa = PBXGroup;
+			children = (
+				CE4972E92BA0720F0079A44F /* VINScanner */,
+				CE4972E82BA0720F0079A44F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4972E82BA0720F0079A44F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4972E72BA0720F0079A44F /* VINScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4972E92BA0720F0079A44F /* VINScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB52862BADBCB600337FDC /* Info.plist */,
+				CE4972EA2BA0720F0079A44F /* VINScannerApp.swift */,
+				CE521D772BA9BD8100B19628 /* Handlers */,
+				CEDB527A2BAC42E600337FDC /* Extensions */,
+				CEDB52822BAC50F000337FDC /* Helpers */,
+				CE521D722BA9BCBE00B19628 /* Modules */,
+				CE4972EE2BA072110079A44F /* Assets.xcassets */,
+				CE4972F32BA072110079A44F /* VINScanner.entitlements */,
+				CE4972F02BA072110079A44F /* Preview Content */,
+			);
+			path = VINScanner;
+			sourceTree = "<group>";
+		};
+		CE4972F02BA072110079A44F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE4972F12BA072110079A44F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE521D722BA9BCBE00B19628 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CE521D732BA9BCD500B19628 /* StartModule */,
+				CE521D742BA9BD2B00B19628 /* CameraModule */,
+				CE521D7E2BA9C54200B19628 /* ScanModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CE521D732BA9BCD500B19628 /* StartModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE4972EC2BA0720F0079A44F /* StartView.swift */,
+			);
+			path = StartModule;
+			sourceTree = "<group>";
+		};
+		CE521D742BA9BD2B00B19628 /* CameraModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE521D782BA9BDD100B19628 /* CameraPreview */,
+				CE4972FB2BA081E80079A44F /* CameraView.swift */,
+				CE521D752BA9BD6800B19628 /* CameraViewModel .swift */,
+			);
+			path = CameraModule;
+			sourceTree = "<group>";
+		};
+		CE521D772BA9BD8100B19628 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				CE521D7B2BA9BE4300B19628 /* Camera */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		CE521D782BA9BDD100B19628 /* CameraPreview */ = {
+			isa = PBXGroup;
+			children = (
+				CE521D792BA9BDEF00B19628 /* CameraPreview.swift */,
+			);
+			path = CameraPreview;
+			sourceTree = "<group>";
+		};
+		CE521D7B2BA9BE4300B19628 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				CE4972F92BA0819F0079A44F /* CameraHandler.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		CE521D7E2BA9C54200B19628 /* ScanModule */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB527F2BAC509100337FDC /* CheckingTextView */,
+				CE521D7F2BA9C55D00B19628 /* RectangleView */,
+				CE07A5DD2BA1EDF1003B0F49 /* ScanView.swift */,
+				CE73D1572BAAB69100A026FB /* ScanViewModel.swift */,
+			);
+			path = ScanModule;
+			sourceTree = "<group>";
+		};
+		CE521D7F2BA9C55D00B19628 /* RectangleView */ = {
+			isa = PBXGroup;
+			children = (
+				CE521D6E2BA860E200B19628 /* RectanglePathView.swift */,
+				CE521D702BA866F800B19628 /* RecognitionTextBox.swift */,
+			);
+			path = RectangleView;
+			sourceTree = "<group>";
+		};
+		CEDB527A2BAC42E600337FDC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB527B2BAC431500337FDC /* CGPoint+Ext.swift */,
+				CEDB527D2BAC434400337FDC /* View+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEDB527F2BAC509100337FDC /* CheckingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB52802BAC50BC00337FDC /* CheckingTextView.swift */,
+			);
+			path = CheckingTextView;
+			sourceTree = "<group>";
+		};
+		CEDB52822BAC50F000337FDC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB52832BAC50FB00337FDC /* ViewModifiers */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CEDB52832BAC50FB00337FDC /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CEDB52842BAC511E00337FDC /* TextFieldClearButton.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4972E62BA0720F0079A44F /* VINScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4972F62BA072110079A44F /* Build configuration list for PBXNativeTarget "VINScanner" */;
+			buildPhases = (
+				CE4972E32BA0720F0079A44F /* Sources */,
+				CE4972E42BA0720F0079A44F /* Frameworks */,
+				CE4972E52BA0720F0079A44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VINScanner;
+			productName = VINScanner;
+			productReference = CE4972E72BA0720F0079A44F /* VINScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE4972DF2BA0720F0079A44F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE4972E62BA0720F0079A44F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CE4972E22BA0720F0079A44F /* Build configuration list for PBXProject "VINScanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE4972DE2BA0720F0079A44F;
+			productRefGroup = CE4972E82BA0720F0079A44F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4972E62BA0720F0079A44F /* VINScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4972E52BA0720F0079A44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4972F22BA072110079A44F /* Preview Assets.xcassets in Resources */,
+				CE4972EF2BA072110079A44F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4972E32BA0720F0079A44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4972FA2BA0819F0079A44F /* CameraHandler.swift in Sources */,
+				CE4972ED2BA0720F0079A44F /* StartView.swift in Sources */,
+				CE73D1582BAAB69100A026FB /* ScanViewModel.swift in Sources */,
+				CEDB527C2BAC431500337FDC /* CGPoint+Ext.swift in Sources */,
+				CE07A5DE2BA1EDF1003B0F49 /* ScanView.swift in Sources */,
+				CE521D7A2BA9BDEF00B19628 /* CameraPreview.swift in Sources */,
+				CEDB52852BAC511E00337FDC /* TextFieldClearButton.swift in Sources */,
+				CEDB52812BAC50BC00337FDC /* CheckingTextView.swift in Sources */,
+				CE521D712BA866F800B19628 /* RecognitionTextBox.swift in Sources */,
+				CE521D6F2BA860E200B19628 /* RectanglePathView.swift in Sources */,
+				CE4972EB2BA0720F0079A44F /* VINScannerApp.swift in Sources */,
+				CE521D762BA9BD6800B19628 /* CameraViewModel .swift in Sources */,
+				CEDB527E2BAC434400337FDC /* View+Ext.swift in Sources */,
+				CE4972FC2BA081E80079A44F /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE4972F42BA072110079A44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4972F52BA072110079A44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE4972F72BA072110079A44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VINScanner/VINScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VINScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QAZ87AC89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VINScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrakozlova.VINScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE4972F82BA072110079A44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VINScanner/VINScanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VINScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 5QAZ87AC89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VINScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrakozlova.VINScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE4972E22BA0720F0079A44F /* Build configuration list for PBXProject "VINScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4972F42BA072110079A44F /* Debug */,
+				CE4972F52BA072110079A44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4972F62BA072110079A44F /* Build configuration list for PBXNativeTarget "VINScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4972F72BA072110079A44F /* Debug */,
+				CE4972F82BA072110079A44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE4972DF2BA0720F0079A44F /* Project object */;
+}
